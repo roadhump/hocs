@@ -20,7 +20,6 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^22.4.2",
-    "jest-enzyme": "^4.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "rollup": "^0.56.3",
