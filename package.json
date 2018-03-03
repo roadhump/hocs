@@ -1,6 +1,6 @@
 {
   "name": "@roadhump/hocs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small useful HOCs based on recompose.",
   "main": "build/cjs.js",
   "scripts": {
