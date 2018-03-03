@@ -28,5 +28,10 @@
   },
   "dependencies": {
     "recompose": "^0.26.0"
-  }
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE.txt"
+  ]
 }
