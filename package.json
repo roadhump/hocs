@@ -5,7 +5,8 @@
   "main": "build/cjs.js",
   "scripts": {
     "test": "BABEL_ENV=cjs jest",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepublish": "npm run test && npm run build"
   },
   "keywords": [],
   "author": "Aliaksei Shytkin <e79eas@gmail.com>",
