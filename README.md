@@ -16,7 +16,7 @@ Renders `Component` if `test` is true, otherwise default wrapped component.
 ### renderNothingIf((props) => Boolean)
 
 ```js
-renderIf(
+renderNothingIf(
     test: (props: Object) => boolean,
 ): HigherOrderComponent
 ```
