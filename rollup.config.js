@@ -7,7 +7,12 @@ export default {
         file: 'build/cjs.js',
         format: 'cjs'
     },
-    external: ['recompose'],
+    external: [
+        'recompose/branch',
+        'recompose/renderComponent',
+        'recompose/renderNothing',
+        'recompose/lifecycle',
+    ],
     plugins: [
         babel({
             exclude: 'node_modules/**' // only transpile our source code

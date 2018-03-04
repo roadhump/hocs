@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "Aliaksei Shytkin <e79eas@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
