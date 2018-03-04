@@ -1,5 +1,5 @@
-import branch from 'recompose/branch'
+import branch from 'recompose/branch';
 import renderNothing from 'recompose/renderNothing';
 
-export default (condition) =>
-    branch(condition, renderNothing);
+export default condition =>
+  branch(condition, renderNothing);
